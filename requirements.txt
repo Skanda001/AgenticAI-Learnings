@@ -3,6 +3,7 @@ langchain>=0.3.0
 langchain-core>=0.3.0
 langchain-community>=0.3.0
 langchain-openai>=0.2.0
+langchain-mistralai
 
 # OpenAI SDK (used under the hood by langchain-openai, kept explicit for direct calls if needed)
 openai>=1.40.0
@@ -24,3 +25,5 @@ pydantic>=2.7.0
 
 # Optional but commonly needed for React-style agent tracing/debugging
 langsmith>=0.1.100
+
+streamlit
