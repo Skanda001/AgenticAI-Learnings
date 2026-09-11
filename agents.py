@@ -7,7 +7,8 @@ from tools import websearch,scrape_url
 from dotenv import load_dotenv
 load_dotenv()
 
-llm = ChatMistralAI(model ="mistral-small-latest",temperature=0)
+from langchain_mistralai import ChatMistralAI
+llm = ChatMistralAI(model="mistral-small-latest", temperature=0)
 
 #1st agent
 
